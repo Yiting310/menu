@@ -1,0 +1,154 @@
+/* 全局設定：模仿日式紙張質感 */
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    background-color: #fdfbf0; /* 米黃色紙張背景 */
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23d6d3c0' fill-opacity='0.4' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* 語言選擇首頁 */
+#landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.logo-text {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #cc0000; /* 吃漢紅 */
+    margin-bottom: 2rem;
+    text-shadow: 2px 2px 0px #333;
+}
+
+.lang-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    margin: 10px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 300px;
+    cursor: pointer;
+    transition: transform 0.1s;
+}
+
+.lang-btn:active {
+    transform: scale(0.98);
+}
+
+.lang-sub {
+    font-size: 0.8rem;
+    opacity: 0.8;
+    display: block;
+    margin-top: 5px;
+}
+
+/* 菜單內容頁 */
+#menu-page {
+    display: none; /* 預設隱藏 */
+    padding: 20px;
+    max-width: 1200px; /* 模擬大菜單寬度 */
+    margin: 0 auto;
+}
+
+.back-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #cc0000;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    cursor: pointer;
+    z-index: 100;
+}
+
+/* 瀑布流排版 */
+.menu-grid {
+    column-count: 1; /* 手機預設一欄 */
+    column-gap: 20px;
+}
+
+/* 平板以上改為兩欄或三欄 */
+@media (min-width: 768px) {
+    .menu-grid {
+        column-count: 2;
+    }
+}
+@media (min-width: 1024px) {
+    .menu-grid {
+        column-count: 3;
+    }
+}
+
+/* 菜單區塊卡片 */
+.category-card {
+    background: rgba(255, 255, 255, 0.6);
+    border: 2px solid #333; /* 模仿毛筆框線 */
+    padding: 15px;
+    margin-bottom: 20px;
+    break-inside: avoid; /* 防止區塊被切斷 */
+    box-shadow: 3px 3px 0px rgba(0,0,0,0.1);
+}
+
+.category-title {
+    font-size: 1.5rem;
+    color: #cc0000;
+    border-bottom: 2px solid #cc0000;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: baseline;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+}
+
+.item-info {
+    width: 80%;
+}
+
+.item-name-foreign {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #000;
+    display: block;
+}
+
+.item-name-zh {
+    font-size: 0.9rem;
+    color: #666;
+    margin-top: 2px;
+    display: block;
+}
+
+.item-price {
+    font-weight: bold;
+    color: #cc0000;
+    white-space: nowrap;
+}
+
+.note {
+    background-color: #cc0000;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}

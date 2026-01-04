@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>吃漢 Chi-Han Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="landing-page">
+        <div class="logo-text">吃漢<br><span style="font-size:1.5rem">Chi-Han Izakaya</span></div>
+        <button class="lang-btn" onclick="showMenu('en')">English <span class="lang-sub">英文菜單</span></button>
+        <button class="lang-btn" onclick="showMenu('jp')">日本語 <span class="lang-sub">日文菜單</span></button>
+        <button class="lang-btn" onclick="showMenu('kr')">한국어 <span class="lang-sub">韓文菜單</span></button>
+    </div>
+
+    <div id="menu-page">
+        <div class="menu-grid" id="menu-container">
+            </div>
+        
+        <div class="note" id="note-container">
+            </div>
+    </div>
+
+    <button id="back-btn" class="back-btn" style="display:none;" onclick="goHome()">↩</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
