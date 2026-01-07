@@ -1,4 +1,4 @@
-// === 菜單資料庫 ===
+// === 菜單資料庫 (內容保持不變，確保正確性) ===
 const menuData = {
     // --- Page 1 (丼飯) ---
     p1_beef: { title: {zh:"牛肉丼",en:"Beef",jp:"牛丼",kr:"소고기"}, items: [
@@ -82,7 +82,7 @@ const menuData = {
         { zh: "蜜桃可爾必思角High $110", en: "Peach", jp: "ピーチ", kr: "복숭아", price: "$110" }
     ]},
 
-    // --- Page 2 Data (刺身/壽司 - Cold Dishes) ---
+    // --- Page 2 Data (刺身/壽司) ---
     p2_sashimi: { title: {zh:"刺身",en:"Sashimi",jp:"刺身",kr:"사시미"}, items: [
         { zh: "綜合刺身 小6片 $200", en: "Assorted Sashimi (S)", jp: "刺身盛り合わせ (小)", kr: "모듬 사시미 (소)", price: "$200" },
         { zh: "綜合刺身 中9片 $290", en: "Assorted Sashimi (M)", jp: "刺身盛り合わせ (中)", kr: "모듬 사시미 (중)", price: "$290" },
@@ -152,7 +152,7 @@ const menuData = {
         { zh: "剝皮辣椒雞湯鍋 $500", en: "Chili Chicken Soup Pot", jp: "唐辛子鶏鍋", kr: "고추 닭고기 나베", price: "$500" }
     ]},
 
-    // --- Page 3 Data (Grills/Fried - Hot Dishes) ---
+    // --- Page 3 Data (Grills/Fried) ---
     p3_beef: { title: {zh:"烤牛肉",en:"Grilled Beef",jp:"牛肉焼き",kr:"소고기 구이"}, items: [
         { zh: "鹽蔥牛五花串 $90", en: "Beef Belly w/ Scallion", jp: "牛バラ肉のネギ塩焼き", kr: "소고기 뱃살 파소금구이", price: "$90" },
         { zh: "起司牛五花串 $100", en: "Beef Belly w/ Cheese", jp: "牛バラ肉のチーズ焼き", kr: "소고기 뱃살 치즈구이", price: "$100" },
