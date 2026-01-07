@@ -17,6 +17,7 @@
 
     <button class="nav-btn prev" id="btn-prev" onclick="changePage(-1)" style="display:none;">❮</button>
     <button class="nav-btn next" id="btn-next" onclick="changePage(1)" style="display:none;">❯</button>
+    
     <div class="page-indicator" id="page-indicator" style="display:none;">Page 1 / 3</div>
 
     <div id="menu-slider" style="display:none;" onscroll="updateIndicator()">
@@ -27,11 +28,13 @@
                     <div class="brand-title">吃漢</div>
                     <div id="notice-box" class="notice-box"></div>
                 </div>
+
                 <div class="section-title-bar">
                     <span class="big-title">丼飯</span>
                     <span id="rice-note" class="sub-note"></span>
                     <span id="set-options" class="set-note"></span>
                 </div>
+
                 <div class="grid-3-col-custom">
                     <div class="col-stack">
                         <div id="p1-beef"></div>
@@ -45,6 +48,7 @@
                         <div id="p1-raw"></div>
                     </div>
                 </div>
+
                 <div class="drink-section-wrapper">
                     <div class="section-title-bar red-bg">
                         <span class="big-title white-text">飲料 / 酒類</span>
@@ -66,15 +70,25 @@
                 <div class="grid-2-col-sashimi">
                     <div class="col-stack">
                         <div class="section-title-text red-text">刺身 <span class="small-text">(綜合刺身無法指定品項)</span></div>
-                        <div id="p2-sashimi"></div> <div class="section-title-text red-text mt-20">握壽司</div>
-                        <div id="p2-nigiri"></div> </div>
+                        <div id="p2-sashimi"></div>
+                        
+                        <div class="section-title-text red-text mt-20">握壽司</div>
+                        <div id="p2-nigiri"></div>
+                    </div>
                     
                     <div class="col-stack">
                         <div class="section-title-text red-text">手卷</div>
-                        <div id="p2-handroll"></div> <div class="section-title-text red-text mt-20">壽司卷</div>
-                        <div id="p2-roll"></div> <div class="section-title-text red-text mt-20">鍋物、湯、麵、炒物</div>
-                        <div id="p2-soup"></div> <div class="section-title-text red-text mt-20">火鍋</div>
-                        <div id="p2-hotpot"></div> </div>
+                        <div id="p2-handroll"></div>
+                        
+                        <div class="section-title-text red-text mt-20">壽司卷</div>
+                        <div id="p2-roll"></div>
+                        
+                        <div class="section-title-text red-text mt-20">鍋物、湯、麵、炒物</div>
+                        <div id="p2-soup"></div>
+                        
+                        <div class="section-title-text red-text mt-20">火鍋</div>
+                        <div id="p2-hotpot"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -89,12 +103,19 @@
 
                  <div class="grid-3-col-grill">
                     <div class="col-stack">
-                        <div id="p3-beef"></div> <div id="p3-seafood"></div> </div>
+                        <div id="p3-beef"></div>
+                        <div id="p3-seafood"></div>
+                    </div>
                     <div class="col-stack">
-                         <div id="p3-chicken"></div> <div id="p3-pork"></div> <div id="p3-veg"></div> </div>
+                         <div id="p3-chicken"></div>
+                         <div id="p3-pork"></div>
+                         <div id="p3-veg"></div>
+                    </div>
                     <div class="col-stack">
-                        <div id="p3-fried"></div> <div class="section-title-text red-text">小菜 / 沙拉</div>
-                        <div id="p3-sides"></div> </div>
+                        <div id="p3-fried"></div>
+                        <div class="section-title-text red-text">小菜 / 沙拉</div>
+                        <div id="p3-sides"></div>
+                    </div>
                  </div>
             </div>
         </div>
@@ -102,6 +123,7 @@
     </div>
 
     <button id="back-btn" class="back-btn" style="display:none;" onclick="goHome()">↩</button>
+
     <script src="script.js"></script>
 </body>
 </html>

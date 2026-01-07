@@ -82,188 +82,197 @@ const menuData = {
         { zh: "蜜桃可爾必思角High $110", en: "Peach", jp: "ピーチ", kr: "복숭아", price: "$110" }
     ]},
 
-    // --- Page 2 Data (刺身/壽司 - 原 Page 3) ---
+    // --- Page 2 Data (刺身/壽司 - Cold Dishes) ---
     sashimi: { title: {zh:"",en:"",jp:"",kr:""}, items: [
-        { zh: "綜合刺身 小6片 $200", en: "Assorted(S)", jp: "盛り合わせ(小)", kr: "모듬(소)", price: "$200" },
-        { zh: "綜合刺身 中9片 $290", en: "Assorted(M)", jp: "盛り合わせ(中)", kr: "모듬(중)", price: "$290" },
-        { zh: "綜合刺身 大12片 $380", en: "Assorted(L)", jp: "盛り合わせ(大)", kr: "모듬(대)", price: "$380" },
-        { zh: "綜合海景刺身 $520", en: "Deluxe", jp: "特上", kr: "특상", price: "$520" },
-        { zh: "旗魚刺身 $200", en: "Swordfish", jp: "カジキマグロ", kr: "황새치", price: "$200" },
-        { zh: "花枝刺身 $200", en: "Squid", jp: "イカ", kr: "오징어", price: "$200" },
-        { zh: "紅甘刺身 $200", en: "Amberjack", jp: "カンパチ", kr: "잿방어", price: "$200" },
-        { zh: "鮭魚刺身 $220", en: "Salmon", jp: "サーモン", kr: "연어", price: "$220" },
-        { zh: "海鱺刺身 $210", en: "Cobia", jp: "スギ", kr: "날새기", price: "$210" },
-        { zh: "鮪魚刺身 $220", en: "Tuna", jp: "マグロ", kr: "참치", price: "$220" },
-        { zh: "鮭魚肚刺身 $300", en: "Salmon Belly", jp: "サーモンハラス", kr: "연어뱃살", price: "$300" },
-        { zh: "海鱺肚刺身 $280", en: "Cobia Belly", jp: "スギハラス", kr: "날새기뱃살", price: "$280" },
-        { zh: "宮城縣日本XL生蠔 $160", en: "XL Oyster", jp: "XL生牡蠣", kr: "XL생굴", price: "$160" }
+        { zh: "綜合刺身 小6片 $200", en: "Assorted Sashimi (S)", jp: "刺身盛り合わせ (小)", kr: "모듬 사시미 (소)", price: "$200" },
+        { zh: "綜合刺身 中9片 $290", en: "Assorted Sashimi (M)", jp: "刺身盛り合わせ (中)", kr: "모듬 사시미 (중)", price: "$290" },
+        { zh: "綜合刺身 大12片 $380", en: "Assorted Sashimi (L)", jp: "刺身盛り合わせ (大)", kr: "모듬 사시미 (대)", price: "$380" },
+        { zh: "綜合海景刺身 $520", en: "Deluxe Sashimi", jp: "特上刺身盛り合わせ", kr: "특상 모듬 사시미", price: "$520" },
+        { zh: "旗魚刺身 $200", en: "Swordfish Sashimi", jp: "カジキマグロ刺身", kr: "황새치 사시미", price: "$200" },
+        { zh: "花枝刺身 $200", en: "Squid Sashimi", jp: "イカ刺身", kr: "오징어 사시미", price: "$200" },
+        { zh: "紅甘刺身 $200", en: "Amberjack Sashimi", jp: "カンパチ刺身", kr: "잿방어 사시미", price: "$200" },
+        { zh: "鮭魚刺身 $220", en: "Salmon Sashimi", jp: "サーモン刺身", kr: "연어 사시미", price: "$220" },
+        { zh: "海鱺刺身 $210", en: "Cobia Sashimi", jp: "スギ刺身", kr: "날새기 사시미", price: "$210" },
+        { zh: "鮪魚刺身 $220", en: "Tuna Sashimi", jp: "マグロ刺身", kr: "참치 사시미", price: "$220" },
+        { zh: "鮭魚肚刺身 $300", en: "Salmon Belly Sashimi", jp: "サーモンハラス刺身", kr: "연어 뱃살 사시미", price: "$300" },
+        { zh: "海鱺肚刺身 $280", en: "Cobia Belly Sashimi", jp: "スギハラス刺身", kr: "날새기 뱃살 사시미", price: "$280" },
+        { zh: "宮城縣日本XL生蠔 $160", en: "Japan Miyagi XL Oyster", jp: "宮城産XL生牡蠣", kr: "미야기현 XL 생굴", price: "$160" }
     ]},
     nigiri: { title: {zh:"",en:"",jp:"",kr:""}, items: [
-        { zh: "紅甘握壽司 $50", en: "Amberjack", jp: "カンパチ", kr: "잿방어", price: "$50" },
-        { zh: "花枝握壽司 $50", en: "Squid", jp: "イカ", kr: "오징어", price: "$50" },
-        { zh: "旗魚握壽司 $50", en: "Swordfish", jp: "カジキ", kr: "황새치", price: "$50" },
-        { zh: "鮭魚握壽司 $55", en: "Salmon", jp: "サーモン", kr: "연어", price: "$55" },
-        { zh: "鮪魚握壽司 $55", en: "Tuna", jp: "マグロ", kr: "참치", price: "$55" },
-        { zh: "海鱺握壽司 $55", en: "Cobia", jp: "スギ", kr: "날새기", price: "$55" },
-        { zh: "綜合握壽司 三貫 $150", en: "Assorted(3)", jp: "お任せ(3貫)", kr: "모듬(3p)", price: "$150" },
-        { zh: "炙燒綜合握壽司 三貫 $160", en: "Seared(3)", jp: "炙り(3貫)", kr: "구운모듬(3p)", price: "$160" },
-        { zh: "綜合握壽司 六貫 $300", en: "Assorted(6)", jp: "お任せ(6貫)", kr: "모듬(6p)", price: "$300" },
-        { zh: "炙燒綜合握壽司 六貫 $320", en: "Seared(6)", jp: "炙り(6貫)", kr: "구운모듬(6p)", price: "$320" },
-        { zh: "鮭魚肚握壽司 $70", en: "Salmon Belly", jp: "ハラス", kr: "연어뱃살", price: "$70" },
-        { zh: "海鱺肚握壽司 $70", en: "Cobia Belly", jp: "スギハラス", kr: "날새기뱃살", price: "$70" },
-        { zh: "天使紅蝦握壽司 $80", en: "Angel Shrimp", jp: "赤エビ", kr: "홍새우", price: "$80" },
-        { zh: "炙燒鮭魚握壽司 $60", en: "Seared Salmon", jp: "炙りサーモン", kr: "구운연어", price: "$60" },
-        { zh: "炙燒焦糖鮭魚 $70", en: "Caramel Salmon", jp: "キャラメル", kr: "카라멜연어", price: "$70" },
-        { zh: "炙燒明太子鮭魚 $80", en: "Mentaiko Salmon", jp: "明太子", kr: "명란연어", price: "$80" },
-        { zh: "炙燒星鰻握壽司 $60", en: "Eel", jp: "穴子", kr: "붕장어", price: "$60" },
-        { zh: "炙燒北海道干貝 $80", en: "Scallop", jp: "ホタテ", kr: "관자", price: "$80" },
-        { zh: "炙燒比目魚鰭邊 $80", en: "Flounder Fin", jp: "えんがわ", kr: "광어지느러미", price: "$80" }
+        { zh: "紅甘握壽司 $50", en: "Amberjack Nigiri", jp: "カンパチ握り", kr: "잿방어 초밥", price: "$50" },
+        { zh: "花枝握壽司 $50", en: "Squid Nigiri", jp: "イカ握り", kr: "오징어 초밥", price: "$50" },
+        { zh: "旗魚握壽司 $50", en: "Swordfish Nigiri", jp: "カジキマグロ握り", kr: "황새치 초밥", price: "$50" },
+        { zh: "鮭魚握壽司 $55", en: "Salmon Nigiri", jp: "サーモン握り", kr: "연어 초밥", price: "$55" },
+        { zh: "鮪魚握壽司 $55", en: "Tuna Nigiri", jp: "マグロ握り", kr: "참치 초밥", price: "$55" },
+        { zh: "海鱺握壽司 $55", en: "Cobia Nigiri", jp: "スギ握り", kr: "날새기 초밥", price: "$55" },
+        { zh: "綜合握壽司 三貫 $150", en: "Assorted Nigiri (3 pcs)", jp: "お任せ握り (3貫)", kr: "모듬 초밥 (3p)", price: "$150" },
+        { zh: "炙燒綜合握壽司 三貫 $160", en: "Seared Assorted Nigiri (3 pcs)", jp: "炙り握り (3貫)", kr: "구운 모듬 초밥 (3p)", price: "$160" },
+        { zh: "綜合握壽司 六貫 $300", en: "Assorted Nigiri (6 pcs)", jp: "お任せ握り (6貫)", kr: "모듬 초밥 (6p)", price: "$300" },
+        { zh: "炙燒綜合握壽司 六貫 $320", en: "Seared Assorted Nigiri (6 pcs)", jp: "炙り握り (6貫)", kr: "구운 모듬 초밥 (6p)", price: "$320" },
+        { zh: "鮭魚肚握壽司 $70", en: "Salmon Belly Nigiri", jp: "サーモンハラス握り", kr: "연어 뱃살 초밥", price: "$70" },
+        { zh: "海鱺肚握壽司 $70", en: "Cobia Belly Nigiri", jp: "スギハラス握り", kr: "날새기 뱃살 초밥", price: "$70" },
+        { zh: "天使紅蝦握壽司 $80", en: "Angel Red Shrimp Nigiri", jp: "赤エビ握り", kr: "홍새우 초밥", price: "$80" },
+        { zh: "炙燒鮭魚握壽司 $60", en: "Seared Salmon Nigiri", jp: "炙りサーモン握り", kr: "구운 연어 초밥", price: "$60" },
+        { zh: "炙燒焦糖鮭魚 $70", en: "Seared Caramel Salmon", jp: "炙りキャラメルサーモン", kr: "구운 카라멜 연어 초밥", price: "$70" },
+        { zh: "炙燒明太子鮭魚 $80", en: "Seared Mentaiko Salmon", jp: "炙り明太子サーモン", kr: "구운 명란 연어 초밥", price: "$80" },
+        { zh: "炙燒星鰻握壽司 $60", en: "Seared Eel Nigiri", jp: "穴子握り", kr: "구운 붕장어 초밥", price: "$60" },
+        { zh: "炙燒北海道干貝 $80", en: "Seared Hokkaido Scallop", jp: "ホタテ握り", kr: "구운 가리비 관자 초밥", price: "$80" },
+        { zh: "炙燒比目魚鰭邊 $80", en: "Seared Flounder Fin", jp: "炙りえんがわ", kr: "구운 광어 지느러미 초밥", price: "$80" }
     ]},
     handroll: { title: {zh:"",en:"",jp:"",kr:""}, items: [
-        { zh: "豆皮壽司 $30", en: "Inari", jp: "いなり", kr: "유부초밥", price: "$30" },
-        { zh: "蝦卵手卷 $45", en: "Shrimp Roe", jp: "海老子", kr: "새우알", price: "$45" },
-        { zh: "鮮蝦手卷 $45", en: "Shrimp", jp: "海老", kr: "새우", price: "$45" },
-        { zh: "星鰻手卷 $55", en: "Eel", jp: "穴子", kr: "붕장어", price: "$55" },
-        { zh: "龍蝦蟹肉手卷 $60", en: "Lobster Salad", jp: "ロブスター", kr: "랍스터샐러드", price: "$60" },
-        { zh: "鮭魚卵手卷 $80", en: "Salmon Roe", jp: "いくら", kr: "연어알", price: "$80" },
-        { zh: "炙燒干貝蟹膏手卷 $100", en: "Scallop Paste", jp: "ホタテ蟹味噌", kr: "관자게내장", price: "$100" },
-        { zh: "海膽手卷 $150", en: "Sea Urchin", jp: "ウニ", kr: "성게알", price: "$150" }
+        { zh: "豆皮壽司 $30", en: "Inari Sushi", jp: "いなり寿司", kr: "유부초밥", price: "$30" },
+        { zh: "蝦卵手卷 $45", en: "Shrimp Roe Hand Roll", jp: "海老子手巻き", kr: "새우알 데마끼", price: "$45" },
+        { zh: "鮮蝦手卷 $45", en: "Shrimp Hand Roll", jp: "海老手巻き", kr: "새우 데마끼", price: "$45" },
+        { zh: "星鰻手卷 $55", en: "Eel Hand Roll", jp: "穴子手巻き", kr: "붕장어 데마끼", price: "$55" },
+        { zh: "龍蝦蟹肉手卷 $60", en: "Lobster Salad Hand Roll", jp: "ロブスターサラダ手巻き", kr: "랍스터 샐러드 데마끼", price: "$60" },
+        { zh: "鮭魚卵手卷 $80", en: "Salmon Roe Hand Roll", jp: "いくら手巻き", kr: "연어알 데마끼", price: "$80" },
+        { zh: "炙燒干貝蟹膏手卷 $100", en: "Scallop & Crab Paste Roll", jp: "ホタテ蟹味噌手巻き", kr: "관자 게내장 데마끼", price: "$100" },
+        { zh: "海膽手卷 $150", en: "Sea Urchin Hand Roll", jp: "ウニ手巻き", kr: "성게알 데마끼", price: "$150" }
     ]},
     roll: { title: {zh:"",en:"",jp:"",kr:""}, items: [
-        { zh: "炸蝦海苔壽司卷 $140", en: "Fried Shrimp", jp: "海老天巻き", kr: "새우튀김롤", price: "$140" },
-        { zh: "炙燒鮭魚加州卷 $260", en: "Salmon Roll", jp: "サーモンロール", kr: "연어롤", price: "$260" },
-        { zh: "明太子鮭魚加州卷 $320", en: "Mentaiko Roll", jp: "明太子ロール", kr: "명란롤", price: "$320" },
-        { zh: "起司鮭魚加州卷 $320", en: "Cheese Roll", jp: "チーズロール", kr: "치즈롤", price: "$320" }
+        { zh: "炸蝦海苔壽司卷 $140", en: "Fried Shrimp Roll", jp: "海老天巻き", kr: "새우튀김 롤", price: "$140" },
+        { zh: "炙燒鮭魚加州卷 $260", en: "Seared Salmon Roll", jp: "炙りサーモンロール", kr: "구운 연어 롤", price: "$260" },
+        { zh: "明太子鮭魚加州卷 $320", en: "Mentaiko Salmon Roll", jp: "明太子サーモンロール", kr: "명란 연어 롤", price: "$320" },
+        { zh: "起司鮭魚加州卷 $320", en: "Cheese Salmon Roll", jp: "チーズサーモンロール", kr: "치즈 연어 롤", price: "$320" }
     ]},
     soup: { title: {zh:"",en:"",jp:"",kr:""}, items: [
         { zh: "味增湯 $30", en: "Miso Soup", jp: "味噌汁", kr: "미소장국", price: "$30" },
-        { zh: "蛤蠣湯 $60", en: "Clam Soup", jp: "アサリ汁", kr: "조개탕", price: "$60" },
-        { zh: "味增蛤蠣湯 $80", en: "Miso Clam", jp: "アサリ味噌", kr: "조개미소", price: "$80" },
-        { zh: "泡菜炒豬肉 $120", en: "Kimchi Pork", jp: "豚キムチ", kr: "김치제육", price: "$120" },
-        { zh: "酒蒸蛤蠣 $150", en: "Sake Clam", jp: "酒蒸し", kr: "술찜", price: "$150" },
-        { zh: "豚骨豬肉湯烏龍 $170", en: "Pork Udon", jp: "豚骨うどん", kr: "돈코츠우동", price: "$170" },
-        { zh: "日式炸蝦湯烏龍 $180", en: "Shrimp Udon", jp: "海老天うどん", kr: "새우튀김우동", price: "$180" },
-        { zh: "雞白湯烏龍 $200", en: "Chicken Udon", jp: "鶏白湯うどん", kr: "토리파이탄", price: "$200" },
-        { zh: "明太子炒烏龍 $260", en: "Mentaiko Udon", jp: "明太子うどん", kr: "명란우동", price: "$260" },
-        { zh: "泡菜豬肉豆腐鍋 $230", en: "Kimchi Pot", jp: "キムチ鍋", kr: "김치찌개", price: "$230" }
+        { zh: "蛤蠣湯 $60", en: "Clam Soup", jp: "アサリの吸い物", kr: "조개탕", price: "$60" },
+        { zh: "味增蛤蠣湯 $80", en: "Miso Clam Soup", jp: "アサリ味噌汁", kr: "조개 미소장국", price: "$80" },
+        { zh: "泡菜炒豬肉 $120", en: "Kimchi Stir-fried Pork", jp: "豚キムチ", kr: "돼지고기 김치볶음", price: "$120" },
+        { zh: "酒蒸蛤蠣 $150", en: "Sake Steamed Clams", jp: "アサリの酒蒸し", kr: "바지락 술찜", price: "$150" },
+        { zh: "豚骨豬肉湯烏龍 $170", en: "Pork Udon", jp: "豚骨うどん", kr: "돈코츠 우동", price: "$170" },
+        { zh: "日式炸蝦湯烏龍 $180", en: "Fried Shrimp Udon", jp: "海老天うどん", kr: "새우튀김 우동", price: "$180" },
+        { zh: "雞白湯烏龍 $200", en: "Chicken Soup Udon", jp: "鶏白湯うどん", kr: "토리파이탄 우동", price: "$200" },
+        { zh: "明太子炒烏龍 $260", en: "Mentaiko Stir-fried Udon", jp: "明太子焼きうどん", kr: "명란 볶음 우동", price: "$260" },
+        { zh: "泡菜豬肉豆腐鍋 $230", en: "Kimchi Pork Tofu Pot", jp: "キムチ鍋", kr: "김치찌개", price: "$230" }
     ]},
     hotpot: { title: {zh:"",en:"",jp:"",kr:""}, items: [
-        { zh: "豚骨相撲鍋 $400", en: "Sumo Pot", jp: "ちゃんこ鍋", kr: "창코나베", price: "$400" },
-        { zh: "剝皮辣椒雞湯鍋 $500", en: "Chili Chicken", jp: "唐辛子鶏鍋", kr: "고추닭나베", price: "$500" }
+        { zh: "豚骨相撲鍋 $400", en: "Tonkotsu Sumo Pot", jp: "ちゃんこ鍋", kr: "돈코츠 창코나베", price: "$400" },
+        { zh: "剝皮辣椒雞湯鍋 $500", en: "Chili Chicken Soup Pot", jp: "唐辛子鶏鍋", kr: "고추 닭고기 나베", price: "$500" }
     ]},
 
-    // --- Page 3 Data (烤物/炸物 - 原 Page 2) ---
-    grill_beef: { title: {zh:"烤牛肉",en:"Grilled Beef",jp:"牛肉",kr:"소고기"}, items: [
-        { zh: "鹽蔥牛五花串 $90", en: "Beef Belly", jp: "牛バラ", kr: "우삼겹", price: "$90" },
-        { zh: "起司牛五花串 $100", en: "Cheese Beef", jp: "チーズ牛", kr: "치즈우삼겹", price: "$100" },
-        { zh: "明太子牛五花串 $100", en: "Mentaiko Beef", jp: "明太子牛", kr: "명란우삼겹", price: "$100" },
-        { zh: "剝皮辣椒牛五花串 $110", en: "Chili Beef", jp: "唐辛子牛", kr: "고추우삼겹", price: "$110" },
-        { zh: "鹽烤牛小排串 $120", en: "Short Rib", jp: "カルビ", kr: "갈비", price: "$120" },
-        { zh: "鹽烤牛肋條串 $140", en: "Rib Finger", jp: "中落ち", kr: "늑간살", price: "$140" },
-        { zh: "鹽蔥牛舌 $200", en: "Tongue", jp: "牛タン", kr: "우설", price: "$200" },
-        { zh: "帶骨牛小排 $240", en: "Bone-in Rib", jp: "骨付き", kr: "LA갈비", price: "$240" },
-        { zh: "和牛漢堡排 $240", en: "Wagyu Burger", jp: "ハンバーグ", kr: "함박", price: "$240" },
-        { zh: "和牛肋條串 $260", en: "Wagyu Rib", jp: "和牛カルビ", kr: "와규갈비", price: "$260" },
-        { zh: "Prime沙朗牛排 $300", en: "Sirloin", jp: "サーロイン", kr: "등심", price: "$300" }
+    // --- Page 3 Data (Grills/Fried - Hot Dishes) ---
+    grill_beef: { title: {zh:"烤牛肉",en:"Grilled Beef",jp:"牛肉焼き",kr:"소고기 구이"}, items: [
+        { zh: "鹽蔥牛五花串 $90", en: "Beef Belly w/ Scallion", jp: "牛バラ肉のネギ塩焼き", kr: "소고기 뱃살 파소금구이", price: "$90" },
+        { zh: "起司牛五花串 $100", en: "Beef Belly w/ Cheese", jp: "牛バラ肉のチーズ焼き", kr: "소고기 뱃살 치즈구이", price: "$100" },
+        { zh: "明太子牛五花串 $100", en: "Beef Belly w/ Mentaiko", jp: "牛バラ肉の明太子焼き", kr: "소고기 뱃살 명란구이", price: "$100" },
+        { zh: "剝皮辣椒牛五花串 $110", en: "Beef Belly w/ Chili", jp: "牛バラ肉の唐辛子巻き", kr: "소고기 뱃살 고추말이", price: "$110" },
+        { zh: "鹽烤牛小排串 $120", en: "Short Rib Skewer", jp: "骨付きカルビ串", kr: "LA갈비 꼬치구이", price: "$120" },
+        { zh: "鹽烤牛肋條串 $140", en: "Beef Rib Finger Skewer", jp: "中落ちカルビ串", kr: "갈비 늑간살 구이", price: "$140" },
+        { zh: "鹽蔥牛舌 $200", en: "Beef Tongue w/ Scallion", jp: "ネギ塩牛タン", kr: "파소금 우설구이", price: "$200" },
+        { zh: "帶骨牛小排 $240", en: "Bone-in Short Ribs", jp: "骨付きカルビ", kr: "LA갈비 구이", price: "$240" },
+        { zh: "和牛漢堡排 $240", en: "Wagyu Hamburger", jp: "和牛ハンバーグ", kr: "와규 함박스테이크", price: "$240" },
+        { zh: "和牛肋條串 $260", en: "Wagyu Rib Finger Skewer", jp: "和牛中落ちカルビ串", kr: "와규 늑간살 꼬치", price: "$260" },
+        { zh: "Prime沙朗牛排 $300", en: "Prime Sirloin Steak", jp: "プライムサーロイン", kr: "프라임 등심 스테이크", price: "$300" }
     ]},
-    grill_seafood: { title: {zh:"烤海鮮",en:"Grilled Seafood",jp:"海鮮",kr:"해산물"}, items: [
-        { zh: "鹽烤鯛魚下巴 $120", en: "Bream Chin", jp: "鯛カマ", kr: "도미머리", price: "$120" },
-        { zh: "鹽烤鯖魚 $120", en: "Mackerel", jp: "サバ", kr: "고등어", price: "$120" },
-        { zh: "竹筴魚一夜干 $180", en: "Horse Mackerel", jp: "アジ一夜干し", kr: "전갱이", price: "$180" },
-        { zh: "福氣鱈魚卵 $200", en: "Cod Roe", jp: "タラコ", kr: "명란", price: "$200" },
-        { zh: "鹽烤大草蝦 $200", en: "Prawns", jp: "大エビ", kr: "대하", price: "$200" },
-        { zh: "鹽烤虱目魚肚 $200", en: "Milkfish", jp: "サバヒー", kr: "밀크피쉬", price: "$200" },
-        { zh: "花魚一夜干 $280", en: "Atka Mackerel", jp: "ホッケ", kr: "임연수", price: "$280" },
-        { zh: "現流午仔魚 $280", en: "Threadfin", jp: "ツバメコノシロ", kr: "날가지숭어", price: "$280" },
-        { zh: "鹽烤透抽 $280", en: "Squid", jp: "イカ", kr: "오징어", price: "$280" },
-        { zh: "鹽烤鮭魚肚 $320", en: "Salmon Belly", jp: "鮭ハラス", kr: "연어뱃살", price: "$320" },
-        { zh: "鹽烤海鱺肚 $340", en: "Cobia Belly", jp: "スギハラス", kr: "날새기뱃살", price: "$340" },
-        { zh: "鹽烤紅甘下巴 $320", en: "Amberjack Chin", jp: "カンパチカマ", kr: "잿방어머리", price: "$320" },
-        { zh: "鹽烤海鱺下巴 $320", en: "Cobia Chin", jp: "スギカマ", kr: "날새기머리", price: "$320" },
-        { zh: "鹽烤鮭魚下巴 $360", en: "Salmon Chin", jp: "鮭カマ", kr: "연어머리", price: "$360" }
+    grill_seafood: { title: {zh:"烤海鮮",en:"Grilled Seafood",jp:"海鮮焼き",kr:"해산물 구이"}, items: [
+        { zh: "鹽烤鯛魚下巴 $120", en: "Sea Bream Chin", jp: "鯛のカマ焼き", kr: "도미 머리 구이", price: "$120" },
+        { zh: "鹽烤鯖魚 $120", en: "Grilled Mackerel", jp: "サバの塩焼き", kr: "고등어 소금구이", price: "$120" },
+        { zh: "竹筴魚一夜干 $180", en: "Horse Mackerel Ichiyaboshi", jp: "アジの一夜干し", kr: "전갱이 반건조 구이", price: "$180" },
+        { zh: "福氣鱈魚卵 $200", en: "Grilled Cod Roe", jp: "タラコ焼き", kr: "명란 구이", price: "$200" },
+        { zh: "鹽烤大草蝦 $200", en: "Grilled Giant Prawns", jp: "大エビの塩焼き", kr: "대하 소금구이", price: "$200" },
+        { zh: "鹽烤虱目魚肚 $200", en: "Grilled Milkfish Belly", jp: "サバヒーの腹身焼き", kr: "밀크피쉬 뱃살 구이", price: "$200" },
+        { zh: "花魚一夜干 $280", en: "Atka Mackerel Ichiyaboshi", jp: "ホッケの一夜干し", kr: "임연수어 반건조 구이", price: "$280" },
+        { zh: "現流午仔魚 $280", en: "Grilled Threadfin", jp: "ツバメコノシロ焼き", kr: "날가지숭어 구이", price: "$280" },
+        { zh: "鹽烤透抽 $280", en: "Grilled Squid", jp: "イカの丸焼き", kr: "오징어 통구이", price: "$280" },
+        { zh: "鹽烤鮭魚肚 $320", en: "Salmon Belly", jp: "鮭ハラス焼き", kr: "연어 뱃살 구이", price: "$320" },
+        { zh: "鹽烤海鱺肚 $340", en: "Cobia Belly", jp: "スギのハラス焼き", kr: "날새기 뱃살 구이", price: "$340" },
+        { zh: "鹽烤紅甘下巴 $320", en: "Amberjack Chin", jp: "カンパチのカマ焼き", kr: "잿방어 머리 구이", price: "$320" },
+        { zh: "鹽烤海鱺下巴 $320", en: "Cobia Chin", jp: "スギのカマ焼き", kr: "날새기 머리 구이", price: "$320" },
+        { zh: "鹽烤鮭魚下巴 $360", en: "Salmon Chin", jp: "鮭のカマ焼き", kr: "연어 머리 구이", price: "$360" }
     ]},
-    grill_chicken: { title: {zh:"烤雞肉/烤羊肉",en:"Chicken/Lamb",jp:"鶏/羊",kr:"닭/양"}, items: [
-        { zh: "鹽烤雞腿肉串 $110", en: "Salt Chicken", jp: "鶏塩", kr: "닭소금", price: "$110" },
-        { zh: "醬烤雞腿肉串 $110", en: "Sauce Chicken", jp: "鶏タレ", kr: "닭양념", price: "$110" },
-        { zh: "芥末雞腿肉串 $110", en: "Wasabi Chicken", jp: "ワサビ", kr: "와사비", price: "$110" },
-        { zh: "起司雞腿肉串 $120", en: "Cheese Chicken", jp: "チーズ", kr: "치즈", price: "$120" },
-        { zh: "明太子雞腿肉串 $150", en: "Mentaiko Chicken", jp: "明太子", kr: "명란", price: "$150" },
-        { zh: "醬烤雞腿排 $120", en: "Chicken Steak", jp: "鶏ステーキ", kr: "닭스테이크", price: "$120" },
-        { zh: "吃漢雞肉丸 $120", en: "Meatball", jp: "つくね", kr: "완자", price: "$120" },
-        { zh: "明太子雞肉丸 $150", en: "Mentaiko Ball", jp: "明太子つくね", kr: "명란완자", price: "$150" },
-        { zh: "鹽烤雞尾股串 $100", en: "Chicken Tail", jp: "ぼんじり", kr: "닭꼬리", price: "$100" },
-        { zh: "醬烤雞尾股串 $100", en: "Sauce Tail", jp: "ぼんじりタレ", kr: "양념꼬리", price: "$100" },
-        { zh: "鹽烤雞皮串 $100", en: "Chicken Skin", jp: "鶏皮", kr: "닭껍질", price: "$100" },
-        { zh: "醬烤雞皮串 $100", en: "Sauce Skin", jp: "鶏皮タレ", kr: "양념껍질", price: "$100" },
-        { zh: "鹽烤三節翅 $120", en: "Chicken Wings", jp: "手羽先", kr: "닭날개", price: "$120" },
-        { zh: "孜然羊肉串 $100", en: "Cumin Lamb", jp: "ラム", kr: "양꼬치", price: "$100" }
+    grill_chicken: { title: {zh:"烤雞肉/烤羊肉",en:"Chicken/Lamb",jp:"焼き鳥/羊肉",kr:"닭고기/양고기"}, items: [
+        { zh: "鹽烤雞腿肉串 $110", en: "Salt-Grilled Chicken Thigh", jp: "鶏もも肉の塩焼き", kr: "닭다리살 소금구이", price: "$110" },
+        { zh: "醬烤雞腿肉串 $110", en: "Sauce-Grilled Chicken Thigh", jp: "鶏もも肉のタレ焼き", kr: "닭다리살 양념구이", price: "$110" },
+        { zh: "芥末雞腿肉串 $110", en: "Chicken Thigh w/ Wasabi", jp: "鶏もも肉わさび焼き", kr: "닭다리살 와사비구이", price: "$110" },
+        { zh: "起司雞腿肉串 $120", en: "Chicken Thigh w/ Cheese", jp: "鶏もも肉チーズ焼き", kr: "닭다리살 치즈구이", price: "$120" },
+        { zh: "明太子雞腿肉串 $150", en: "Chicken Thigh w/ Mentaiko", jp: "鶏もも肉明太子焼き", kr: "닭다리살 명란구이", price: "$150" },
+        { zh: "醬烤雞腿排 $120", en: "Chicken Thigh Steak", jp: "鶏もも肉のステーキ", kr: "닭다리살 스테이크", price: "$120" },
+        { zh: "吃漢雞肉丸 $120", en: "Chicken Meatball", jp: "特製つくね", kr: "특제 츠쿠네", price: "$120" },
+        { zh: "明太子雞肉丸 $150", en: "Mentaiko Meatball", jp: "明太子つくね", kr: "명란 츠쿠네", price: "$150" },
+        { zh: "鹽烤雞尾股串 $100", en: "Salt-Grilled Chicken Tail", jp: "ぼんじり塩焼き", kr: "닭 꼬리 소금구이", price: "$100" },
+        { zh: "醬烤雞尾股串 $100", en: "Sauce-Grilled Chicken Tail", jp: "ぼんじりタレ焼き", kr: "닭 꼬리 양념구이", price: "$100" },
+        { zh: "鹽烤雞皮串 $100", en: "Salt-Grilled Chicken Skin", jp: "鶏皮塩焼き", kr: "닭 껍질 소금구이", price: "$100" },
+        { zh: "醬烤雞皮串 $100", en: "Sauce-Grilled Chicken Skin", jp: "鶏皮タレ焼き", kr: "닭 껍질 양념구이", price: "$100" },
+        { zh: "鹽烤三節翅 $120", en: "Salt-Grilled Chicken Wings", jp: "手羽先塩焼き", kr: "닭날개 소금구이", price: "$120" },
+        { zh: "孜然羊肉串 $100", en: "Cumin Lamb Skewer", jp: "ラム肉のクミン焼き", kr: "쯔란 양꼬치", price: "$100" }
     ]},
-    grill_pork: { title: {zh:"烤豬肉",en:"Grilled Pork",jp:"豚肉",kr:"돼지"}, items: [
-        { zh: "鹽烤豬里肌 $100", en: "Pork Loin", jp: "豚ロース", kr: "등심", price: "$100" },
-        { zh: "鹽烤豬五花串 $120", en: "Pork Belly", jp: "豚バラ", kr: "삼겹살", price: "$120" },
-        { zh: "鹽蔥豬五花串 $120", en: "Scallion Belly", jp: "ネギ塩バラ", kr: "파소금삼겹", price: "$120" },
-        { zh: "醬烤豬五花串 $120", en: "Sauce Belly", jp: "タレバラ", kr: "양념삼겹", price: "$120" },
-        { zh: "芥末豬五花串 $120", en: "Wasabi Belly", jp: "ワサビバラ", kr: "와사비삼겹", price: "$120" },
-        { zh: "鹽烤松阪豬 $130", en: "Pork Jowl", jp: "トントロ", kr: "항정살", price: "$130" },
-        { zh: "脆嫩肥腸 $200", en: "Intestine", jp: "ホルモン", kr: "대창", price: "$200" },
-        { zh: "烤鹹豬肉 $200", en: "Salty Pork", jp: "スーチーカー", kr: "짠돼지고기", price: "$200" }
+    grill_pork: { title: {zh:"烤豬肉",en:"Grilled Pork",jp:"豚肉焼き",kr:"돼지고기 구이"}, items: [
+        { zh: "鹽烤豬里肌 $100", en: "Salt-Grilled Pork Loin", jp: "豚ロース塩焼き", kr: "돼지 등심 소금구이", price: "$100" },
+        { zh: "鹽烤豬五花串 $120", en: "Salt-Grilled Pork Belly", jp: "豚バラ塩焼き", kr: "삼겹살 소금구이", price: "$120" },
+        { zh: "鹽蔥豬五花串 $120", en: "Pork Belly w/ Scallion", jp: "豚バラネギ塩焼き", kr: "삼겹살 파소금구이", price: "$120" },
+        { zh: "醬烤豬五花串 $120", en: "Sauce-Grilled Pork Belly", jp: "豚バラタレ焼き", kr: "삼겹살 양념구이", price: "$120" },
+        { zh: "芥末豬五花串 $120", en: "Pork Belly w/ Wasabi", jp: "豚バラわさび焼き", kr: "삼겹살 와사비구이", price: "$120" },
+        { zh: "鹽烤松阪豬 $130", en: "Salt-Grilled Pork Jowl", jp: "トントロ塩焼き", kr: "항정살 소금구이", price: "$130" },
+        { zh: "脆嫩肥腸 $200", en: "Crispy Pork Intestine", jp: "ホルモン焼き", kr: "대창 구이", price: "$200" },
+        { zh: "烤鹹豬肉 $200", en: "Grilled Salty Pork", jp: "スーチーカー(塩漬け豚)", kr: "소금절임 돼지고기", price: "$200" }
     ]},
-    grill_veg: { title: {zh:"烤蔬菜",en:"Veggies",jp:"野菜",kr:"채소"}, items: [
-        { zh: "鹽烤香菇 $80", en: "Shiitake", jp: "椎茸", kr: "표고", price: "$80" },
-        { zh: "鹽烤節瓜 $100", en: "Zucchini", jp: "ズッキーニ", kr: "애호박", price: "$100" },
-        { zh: "鹽烤山藥 $120", en: "Yam", jp: "山芋", kr: "마", price: "$120" },
-        { zh: "起司地瓜 $150", en: "Cheese Yam", jp: "チーズ芋", kr: "치즈고구마", price: "$150" },
-        { zh: "明太子節瓜 $150", en: "Mentaiko Zucchini", jp: "明太子ズッキーニ", kr: "명란애호박", price: "$150" },
-        { zh: "明太子山藥 $170", en: "Mentaiko Yam", jp: "明太子山芋", kr: "명란마", price: "$170" }
+    grill_veg: { title: {zh:"烤蔬菜",en:"Grilled Veggies",jp:"野菜焼き",kr:"채소 구이"}, items: [
+        { zh: "鹽烤香菇 $80", en: "Salt-Grilled Shiitake", jp: "しいたけ塩焼き", kr: "표고버섯 구이", price: "$80" },
+        { zh: "鹽烤節瓜 $100", en: "Salt-Grilled Zucchini", jp: "ズッキーニ塩焼き", kr: "애호박 구이", price: "$100" },
+        { zh: "鹽烤山藥 $120", en: "Salt-Grilled Yam", jp: "山芋塩焼き", kr: "마 구이", price: "$120" },
+        { zh: "起司地瓜 $150", en: "Sweet Potato w/ Cheese", jp: "サツマイモチーズ", kr: "치즈 고구마", price: "$150" },
+        { zh: "明太子節瓜 $150", en: "Zucchini w/ Mentaiko", jp: "ズッキーニ明太子", kr: "명란 애호박", price: "$150" },
+        { zh: "明太子山藥 $170", en: "Yam w/ Mentaiko", jp: "山芋明太子", kr: "명란 마 구이", price: "$170" }
     ]},
     fried: { title: {zh:"炸物",en:"Fried Food",jp:"揚げ物",kr:"튀김"}, items: [
-        { zh: "雞肉洋蔥圈 $80", en: "Onion Rings", jp: "オニオンリング", kr: "어니언링", price: "$80" },
-        { zh: "日式炸豆腐 $100", en: "Agedashi Tofu", jp: "揚げ出し豆腐", kr: "두부튀김", price: "$100" },
-        { zh: "日式炸豬排 $100", en: "Pork Cutlet", jp: "とんかつ", kr: "돈까스", price: "$100" },
-        { zh: "起司可樂餅 $120", en: "Croquette", jp: "コロッケ", kr: "고로케", price: "$120" },
-        { zh: "香辣兩節翅 $120", en: "Spicy Wings", jp: "手羽先", kr: "닭날개", price: "$120" },
+        { zh: "雞肉洋蔥圈 $80", en: "Chicken Onion Rings", jp: "オニオンリング", kr: "어니언링", price: "$80" },
+        { zh: "日式炸豆腐 $100", en: "Agedashi Tofu", jp: "揚げ出し豆腐", kr: "아게다시 두부", price: "$100" },
+        { zh: "日式炸豬排 $100", en: "Fried Pork Cutlet", jp: "とんかつ", kr: "돈까스", price: "$100" },
+        { zh: "起司可樂餅 $120", en: "Cheese Croquette", jp: "チーズコロッケ", kr: "치즈 고로케", price: "$120" },
+        { zh: "香辣兩節翅 $120", en: "Spicy Chicken Wings", jp: "スパイシー手羽先", kr: "매운 닭날개", price: "$120" },
         { zh: "日式炸蝦 $120", en: "Fried Shrimp", jp: "海老フライ", kr: "새우튀김", price: "$120" },
         { zh: "酥炸竹筴魚 $120", en: "Fried Horse Mackerel", jp: "アジフライ", kr: "전갱이튀김", price: "$120" },
-        { zh: "唐揚炸雞 $150", en: "Karaage", jp: "唐揚げ", kr: "가라아게", price: "$150" },
+        { zh: "唐揚炸雞 $150", en: "Chicken Karaage", jp: "若鶏の唐揚げ", kr: "치킨 가라아게", price: "$150" },
         { zh: "炸廣島牡蠣 $160", en: "Fried Oysters", jp: "カキフライ", kr: "굴튀김", price: "$160" },
         { zh: "吃漢牛肉餅 $160", en: "Menchi Katsu", jp: "メンチカツ", kr: "멘치카츠", price: "$160" },
-        { zh: "蔬菜天婦羅 $180", en: "Tempura", jp: "天ぷら", kr: "튀김", price: "$180" },
-        { zh: "南蠻炸雞 $200", en: "Nanban", jp: "チキン南蛮", kr: "치킨난반", price: "$200" }
+        { zh: "蔬菜天婦羅 $180", en: "Vegetable Tempura", jp: "野菜天ぷら", kr: "야채 튀김", price: "$180" },
+        { zh: "南蠻炸雞 $200", en: "Chicken Nanban", jp: "チキン南蛮", kr: "치킨난반", price: "$200" }
     ]},
     sides: { title: {zh:"",en:"",jp:"",kr:""}, items: [
-        { zh: "茶碗蒸 $30", en: "Egg Custard", jp: "茶碗蒸し", kr: "계란찜", price: "$30" },
-        { zh: "柚香蘿蔔 $40", en: "Yuzu Radish", jp: "柚子大根", kr: "유자단무지", price: "$40" },
+        { zh: "茶碗蒸 $30", en: "Chawanmushi (Steamed Egg)", jp: "茶碗蒸し", kr: "계란찜", price: "$30" },
+        { zh: "柚香蘿蔔 $40", en: "Yuzu Pickled Radish", jp: "柚子大根", kr: "유자 단무지", price: "$40" },
         { zh: "毛豆 $40", en: "Edamame", jp: "枝豆", kr: "에다마메", price: "$40" },
-        { zh: "日式溫泉蛋 $40", en: "Onsen Egg", jp: "温泉卵", kr: "온천달걀", price: "$40" },
+        { zh: "日式溫泉蛋 $40", en: "Onsen Egg", jp: "温泉卵", kr: "온천 달걀", price: "$40" },
         { zh: "韓式泡菜 $60", en: "Kimchi", jp: "キムチ", kr: "김치", price: "$60" },
         { zh: "芥末章魚 $70", en: "Wasabi Octopus", jp: "たこわさ", kr: "타코와사비", price: "$70" },
-        { zh: "海帶芽洋蔥沙拉 $80", en: "Onion Salad", jp: "玉ねぎサラダ", kr: "양파샐러드", price: "$80" },
-        { zh: "胡麻柴魚豆腐 $80", en: "Sesame Tofu", jp: "ゴマダレ冷奴", kr: "참깨두부", price: "$80" },
-        { zh: "涼拌胡麻秋葵 $80", en: "Sesame Okra", jp: "オクラ胡麻和え", kr: "오크라무침", price: "$80" },
-        { zh: "香辣去骨鳳爪 $120", en: "Spicy Feet", jp: "骨なし鶏足", kr: "닭발", price: "$120" },
-        { zh: "秋葵山藥冷豆腐 $150", en: "Yam Tofu", jp: "山芋冷奴", kr: "마두부", price: "$150" },
-        { zh: "奶油起司火煥蒸蛋 $150", en: "Cheese Egg", jp: "チーズ茶碗蒸し", kr: "치즈계란찜", price: "$150" },
-        { zh: "日式煎餃 $150", en: "Gyoza", jp: "餃子", kr: "교자", price: "$150" },
-        { zh: "鱈魚肝佐橙醋醬 $180", en: "Cod Liver", jp: "あん肝", kr: "대구간", price: "$180" },
-        { zh: "吃漢滷牛筋 $180", en: "Beef Tendon", jp: "牛すじ", kr: "소힘줄", price: "$180" },
-        { zh: "炙燒干貝蟹膏堡 $200", en: "Scallop Burger", jp: "ホタテ蟹味噌", kr: "관자게내장", price: "$200" }
+        { zh: "海帶芽洋蔥沙拉 $80", en: "Seaweed Onion Salad", jp: "ワカメと玉ねぎサラダ", kr: "미역 양파 샐러드", price: "$80" },
+        { zh: "胡麻柴魚豆腐 $80", en: "Sesame Tofu", jp: "ゴマダレ冷奴", kr: "참깨소스 두부", price: "$80" },
+        { zh: "涼拌胡麻秋葵 $80", en: "Sesame Okra", jp: "オクラの胡麻和え", kr: "오크라 무침", price: "$80" },
+        { zh: "香辣去骨鳳爪 $120", en: "Spicy Boneless Chicken Feet", jp: "骨なし鶏足", kr: "매운 무뼈 닭발", price: "$120" },
+        { zh: "秋葵山藥冷豆腐 $150", en: "Okra Yam Tofu", jp: "山芋オクラ冷奴", kr: "마 오크라 두부", price: "$150" },
+        { zh: "奶油起司火煥蒸蛋 $150", en: "Cream Cheese Steamed Egg", jp: "チーズ茶碗蒸し", kr: "치즈 계란찜", price: "$150" },
+        { zh: "日式煎餃 $150", en: "Gyoza", jp: "焼き餃子", kr: "교자", price: "$150" },
+        { zh: "鱈魚肝佐橙醋醬 $180", en: "Cod Liver w/ Ponzu", jp: "あん肝ポン酢", kr: "대구 간 폰즈소스", price: "$180" },
+        { zh: "吃漢滷牛筋 $180", en: "Braised Beef Tendon", jp: "牛すじ煮込み", kr: "소힘줄 조림", price: "$180" },
+        { zh: "炙燒干貝蟹膏堡 $200", en: "Seared Scallop & Crab Paste", jp: "炙りホタテ蟹味噌", kr: "구운 관자 게내장", price: "$200" }
     ]}
 };
 
+// === 靜態文字與注意事項 (優化翻譯版) ===
 const staticText = {
     notice: {
-        zh: "注意事項<br>1. 丼飯皆附味增湯、外帶不提供套餐。<br>2. 餐點皆現做，請耐心等候。<br>3. 自帶一瓶酒水需點兩杯啤酒抵開瓶費。<br>4. 寵物如需上坐請自備毯子。<br>5. 牛、豬丼飯大部分都提供溫泉蛋，如需全熟請自行告知。",
-        en: "Notice<br>1. Includes Soup<br>2. Made to order<br>3. Corkage fee deal<br>4. Pets need blankets<br>5. Soft-boiled egg inc.",
-        jp: "注意事項<br>1. 味噌汁付き<br>2. 注文後調理<br>3. 持ち込み料割引<br>4. ペットは毛布持参<br>5. 温泉卵付き",
-        kr: "주의사항<br>1. 국 포함<br>2. 즉시 조리<br>3. 콜키지 할인<br>4. 반려동물 담요<br>5. 온천계란 포함"
+        zh: "<b>注意事項</b><br>1. 丼飯皆附味增湯、外帶不提供套餐。<br>2. 餐點皆現做，請耐心等候。<br>3. 自帶一瓶酒水需點兩杯啤酒抵開瓶費。<br>4. 寵物如需上坐請自備毯子。<br>5. 牛、豬丼飯大部分都提供溫泉蛋，如需全熟請自行告知。",
+        
+        en: "<b>Notice</b><br>1. All rice bowls come with Miso Soup. Sets are not available for takeout.<br>2. Meals are made to order, please wait patiently.<br>3. Corkage fee: Order 2 beers for every bottle brought in to waive the fee.<br>4. Please bring a blanket if your pet needs to sit on the seat.<br>5. Beef/Pork bowls come with a soft-boiled egg. Please inform us if you prefer it fully cooked.",
+        
+        jp: "<b>注意事項</b><br>1. 丼は味噌汁付きです。セットのテイクアウトはできません。<br>2. 注文を受けてから調理しますので、少々お待ちください。<br>3. 持ち込み料：ボトル1本につきビール2杯ご注文で無料となります。<br>4. ペットを座席に座らせる際は、毛布をご持参ください。<br>5. 牛丼・豚丼は温泉卵付きです。完熟をご希望の方はお知らせください。",
+        
+        kr: "<b>주의사항</b><br>1. 모든 덮밥에는 미소장국이 포함됩니다. 세트는 포장이 불가합니다.<br>2. 주문 즉시 조리하므로 시간이 소요될 수 있습니다.<br>3. 콜키지 프리: 가져오신 술 1병당 맥주 2잔 주문 시 무료입니다.<br>4. 반려동물 동반 시 좌석용 담요를 지참해 주세요.<br>5. 소고기/돼지고기 덮밥에는 온천 달걀이 제공됩니다. 완숙을 원하시면 미리 말씀해 주세요."
     },
     setOptions: {
         zh: "套餐+50 (小菜、茶碗蒸) | 套餐+100 (小菜、茶碗蒸、甜點)",
-        en: "Set +50 (Side, Egg) | Set +100 (Side, Egg, Dessert)",
-        jp: "セット+50 (小鉢, 茶碗蒸し) | セット+100 (小鉢, 茶碗蒸し, 甘味)",
-        kr: "세트+50 (반찬, 계란찜) | 세트+100 (반찬, 계란찜, 디저트)"
+        en: "Set +$50 (Side Dish, Steamed Egg) | Set +$100 (Side Dish, Steamed Egg, Dessert)",
+        jp: "セット +$50 (小鉢、茶碗蒸し) | セット +$100 (小鉢、茶碗蒸し、デザート)",
+        kr: "세트 +$50 (반찬, 계란찜) | 세트 +$100 (반찬, 계란찜, 디저트)"
     },
-    riceNote: { zh: "#丼飯皆附味增湯", en: "#Includes Soup", jp: "#味噌汁付き", kr: "#국포함" }
+    riceNote: { 
+        zh: "#丼飯皆附味增湯", 
+        en: "#Includes Miso Soup", 
+        jp: "#味噌汁付き", 
+        kr: "#미소장국 포함" 
+    }
 };
 
 function showMenu(lang) {
@@ -292,7 +301,7 @@ function showMenu(lang) {
     renderGroup('p1-drink-sour', menuData.p1_drink_sour, lang);
     renderGroup('p1-drink-highball', menuData.p1_drink_highball, lang);
 
-    // --- Page 2 Rendering (現在是刺身/壽司) ---
+    // --- Page 2 Rendering (Cold - Sashimi/Sushi) ---
     renderGroup('p2-sashimi', menuData.sashimi, lang);
     renderGroup('p2-nigiri', menuData.nigiri, lang);
     renderGroup('p2-handroll', menuData.handroll, lang);
@@ -300,7 +309,7 @@ function showMenu(lang) {
     renderGroup('p2-soup', menuData.soup, lang);
     renderGroup('p2-hotpot', menuData.hotpot, lang);
 
-    // --- Page 3 Rendering (現在是烤物/炸物) ---
+    // --- Page 3 Rendering (Hot - Grills/Fried) ---
     renderGroup('p3-beef', menuData.grill_beef, lang);
     renderGroup('p3-seafood', menuData.grill_seafood, lang);
     renderGroup('p3-chicken', menuData.grill_chicken, lang);
@@ -312,7 +321,6 @@ function showMenu(lang) {
     updateIndicator();
 }
 
-// ... (renderGroup, changePage, updateIndicator, goHome 保持不變) ...
 function renderGroup(targetId, data, lang) {
     const div = document.getElementById(targetId);
     if (!div) return;
