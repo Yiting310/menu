@@ -2,7 +2,7 @@
 body {
     margin: 0; padding: 0; background-color: #333;
     font-family: "Microsoft JhengHei", "Helvetica Neue", sans-serif;
-    overflow: hidden; /* 防止整個網頁亂捲動 */
+    overflow: hidden;
 }
 
 /* 導覽按鈕 & 頁碼 */
@@ -41,21 +41,21 @@ body {
     display: flex; justify-content: center; overflow-y: auto; padding: 20px 0;
 }
 
-/* 紙張紋理 - 關鍵修正：高度自動延展 */
+/* 紙張紋理 - 關鍵修正 */
 .paper-texture {
     width: 1024px; 
-    min-height: 1448px; /* A4比例 */
-    height: auto;       /* 讓內容撐開高度 */
+    min-height: 1448px; 
+    height: auto; /* 讓內容撐開 */
     background: #e6d5b8;
     background-image: repeating-linear-gradient(45deg, rgba(0,0,0,0.02) 0px, transparent 2px);
     padding: 40px; 
-    padding-bottom: 120px; /* 底部留白，避免被手機邊框遮擋 */
+    padding-bottom: 200px; /* 增加大量底部留白 */
     box-sizing: border-box; 
     box-shadow: 0 0 30px rgba(0,0,0,0.5);
     position: relative;
 }
 
-/* --- Page 1 樣式 --- */
+/* P1 */
 .header-row { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px; }
 .brand-title { font-size: 6rem; font-weight: 900; font-family: 'KaiTi', serif; transform: rotate(-5deg); }
 .notice-box { background: #b31b1b; color: #fff; padding: 20px; border-radius: 10px; width: 550px; font-size: 1.1rem; line-height: 1.6; }
@@ -70,25 +70,35 @@ body {
 .grid-3-col-custom { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-bottom: 30px; }
 .grid-3-col-drinks { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; margin-top: 10px; }
 
-/* --- Page 2 (Sashimi) 樣式 --- */
+/* P2 */
 .grid-2-col-sashimi { display: grid; grid-template-columns: 48% 48%; gap: 4%; }
 .mt-20 { margin-top: 30px; }
 
-/* --- Page 3 (Grill) 樣式 --- */
+/* P3 */
 .page2-header { display: flex; align-items: center; margin-bottom: 20px; position: relative; }
-.section-box-title { border: 3px solid #e6d5b8; background: rgba(255,255,255,0.6); padding: 5px 20px; font-size: 2rem; color: #b31b1b; font-weight: bold; border: 2px solid #b31b1b; }
+.section-box-title { 
+    border: 3px solid #e6d5b8; background: rgba(255,255,255,0.6); 
+    padding: 5px 20px; font-size: 2rem; color: #b31b1b; font-weight: bold; 
+    border: 2px solid #b31b1b; 
+    text-align: center;
+}
 .section-box-title.right-side { position: absolute; right: 0; }
-.red-warning-box { background: #b31b1b; color: white; padding: 5px 15px; margin-left: 10px; font-weight: bold; }
+.red-warning-box { 
+    background: #b31b1b; color: white; padding: 8px 15px; 
+    margin-left: 20px; font-weight: bold; border-radius: 5px;
+    font-size: 1.2rem;
+}
 .section-title-text { font-size: 2rem; font-weight: bold; margin-bottom: 10px; border-bottom: 2px solid #b31b1b; display: inline-block;}
 .section-title-text.red-text { color: #b31b1b; }
-.small-text { font-size: 1rem; color: #333; font-weight: normal; }
+.small-text { font-size: 0.6em; color: #333; font-weight: normal; display: block; margin-top: 5px; }
 
-/* 修正：取消固定高度，讓內容撐開 */
 .grid-3-col-grill { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 25px; height: auto; }
 
-/* --- 通用項目樣式 --- */
+/* Items */
 .menu-group { margin-bottom: 20px; background: rgba(255,255,255,0.25); padding: 5px; border-radius: 5px;}
 .group-header-text { font-size: 1.8rem; font-weight: bold; color: #000; border-bottom: 2px solid #aaa; margin-bottom: 8px; padding-left: 5px; }
+.group-header-text span { font-size: 0.6em; margin-left: 10px; color: #555; font-weight: normal; }
+
 .menu-item { display: flex; align-items: center; margin-bottom: 6px; padding: 2px 0; border-bottom: 1px dashed #999; }
 .checkbox-square { width: 22px; height: 22px; border: 2px solid #333; background: #fff; margin-right: 8px; flex-shrink: 0; border-radius: 3px; }
 .item-info { flex: 1; display: flex; flex-direction: column; justify-content: center; }
@@ -96,5 +106,4 @@ body {
 .name-main { font-size: 1.1rem; font-weight: bold; color: #000; }
 .name-sub { font-size: 0.9rem; color: #555; margin-top: -2px; }
 .price-tag { font-size: 1.1rem; color: #000; font-weight: bold; }
-
 .back-btn { position: fixed; bottom: 30px; right: 30px; width: 60px; height: 60px; background: #b31b1b; color: #fff; border-radius: 50%; border:none; font-size: 35px; box-shadow: 0 5px 15px rgba(0,0,0,0.5); z-index: 1000; }

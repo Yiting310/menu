@@ -83,7 +83,7 @@ const menuData = {
     ]},
 
     // --- Page 2 Data (刺身/壽司 - Cold Dishes) ---
-    sashimi: { title: {zh:"",en:"",jp:"",kr:""}, items: [
+    p2_sashimi: { title: {zh:"刺身",en:"Sashimi",jp:"刺身",kr:"사시미"}, items: [
         { zh: "綜合刺身 小6片 $200", en: "Assorted Sashimi (S)", jp: "刺身盛り合わせ (小)", kr: "모듬 사시미 (소)", price: "$200" },
         { zh: "綜合刺身 中9片 $290", en: "Assorted Sashimi (M)", jp: "刺身盛り合わせ (中)", kr: "모듬 사시미 (중)", price: "$290" },
         { zh: "綜合刺身 大12片 $380", en: "Assorted Sashimi (L)", jp: "刺身盛り合わせ (大)", kr: "모듬 사시미 (대)", price: "$380" },
@@ -98,7 +98,7 @@ const menuData = {
         { zh: "海鱺肚刺身 $280", en: "Cobia Belly Sashimi", jp: "スギハラス刺身", kr: "날새기 뱃살 사시미", price: "$280" },
         { zh: "宮城縣日本XL生蠔 $160", en: "Japan Miyagi XL Oyster", jp: "宮城産XL生牡蠣", kr: "미야기현 XL 생굴", price: "$160" }
     ]},
-    nigiri: { title: {zh:"",en:"",jp:"",kr:""}, items: [
+    p2_nigiri: { title: {zh:"握壽司",en:"Nigiri Sushi",jp:"握り寿司",kr:"초밥"}, items: [
         { zh: "紅甘握壽司 $50", en: "Amberjack Nigiri", jp: "カンパチ握り", kr: "잿방어 초밥", price: "$50" },
         { zh: "花枝握壽司 $50", en: "Squid Nigiri", jp: "イカ握り", kr: "오징어 초밥", price: "$50" },
         { zh: "旗魚握壽司 $50", en: "Swordfish Nigiri", jp: "カジキマグロ握り", kr: "황새치 초밥", price: "$50" },
@@ -119,7 +119,7 @@ const menuData = {
         { zh: "炙燒北海道干貝 $80", en: "Seared Hokkaido Scallop", jp: "ホタテ握り", kr: "구운 가리비 관자 초밥", price: "$80" },
         { zh: "炙燒比目魚鰭邊 $80", en: "Seared Flounder Fin", jp: "炙りえんがわ", kr: "구운 광어 지느러미 초밥", price: "$80" }
     ]},
-    handroll: { title: {zh:"",en:"",jp:"",kr:""}, items: [
+    p2_handroll: { title: {zh:"手卷",en:"Hand Roll",jp:"手巻き寿司",kr:"데마끼"}, items: [
         { zh: "豆皮壽司 $30", en: "Inari Sushi", jp: "いなり寿司", kr: "유부초밥", price: "$30" },
         { zh: "蝦卵手卷 $45", en: "Shrimp Roe Hand Roll", jp: "海老子手巻き", kr: "새우알 데마끼", price: "$45" },
         { zh: "鮮蝦手卷 $45", en: "Shrimp Hand Roll", jp: "海老手巻き", kr: "새우 데마끼", price: "$45" },
@@ -129,13 +129,13 @@ const menuData = {
         { zh: "炙燒干貝蟹膏手卷 $100", en: "Scallop & Crab Paste Roll", jp: "ホタテ蟹味噌手巻き", kr: "관자 게내장 데마끼", price: "$100" },
         { zh: "海膽手卷 $150", en: "Sea Urchin Hand Roll", jp: "ウニ手巻き", kr: "성게알 데마끼", price: "$150" }
     ]},
-    roll: { title: {zh:"",en:"",jp:"",kr:""}, items: [
+    p2_roll: { title: {zh:"壽司卷",en:"Sushi Roll",jp:"巻き寿司",kr:"롤 스시"}, items: [
         { zh: "炸蝦海苔壽司卷 $140", en: "Fried Shrimp Roll", jp: "海老天巻き", kr: "새우튀김 롤", price: "$140" },
         { zh: "炙燒鮭魚加州卷 $260", en: "Seared Salmon Roll", jp: "炙りサーモンロール", kr: "구운 연어 롤", price: "$260" },
         { zh: "明太子鮭魚加州卷 $320", en: "Mentaiko Salmon Roll", jp: "明太子サーモンロール", kr: "명란 연어 롤", price: "$320" },
         { zh: "起司鮭魚加州卷 $320", en: "Cheese Salmon Roll", jp: "チーズサーモンロール", kr: "치즈 연어 롤", price: "$320" }
     ]},
-    soup: { title: {zh:"",en:"",jp:"",kr:""}, items: [
+    p2_soup: { title: {zh:"鍋物、湯、麵、炒物",en:"Hot Pot / Soup / Noodles",jp:"鍋物 / スープ / 麺類",kr:"나베 / 국물 / 면류"}, items: [
         { zh: "味增湯 $30", en: "Miso Soup", jp: "味噌汁", kr: "미소장국", price: "$30" },
         { zh: "蛤蠣湯 $60", en: "Clam Soup", jp: "アサリの吸い物", kr: "조개탕", price: "$60" },
         { zh: "味增蛤蠣湯 $80", en: "Miso Clam Soup", jp: "アサリ味噌汁", kr: "조개 미소장국", price: "$80" },
@@ -147,13 +147,13 @@ const menuData = {
         { zh: "明太子炒烏龍 $260", en: "Mentaiko Stir-fried Udon", jp: "明太子焼きうどん", kr: "명란 볶음 우동", price: "$260" },
         { zh: "泡菜豬肉豆腐鍋 $230", en: "Kimchi Pork Tofu Pot", jp: "キムチ鍋", kr: "김치찌개", price: "$230" }
     ]},
-    hotpot: { title: {zh:"",en:"",jp:"",kr:""}, items: [
+    p2_hotpot: { title: {zh:"火鍋",en:"Hot Pot",jp:"鍋物",kr:"나베"}, items: [
         { zh: "豚骨相撲鍋 $400", en: "Tonkotsu Sumo Pot", jp: "ちゃんこ鍋", kr: "돈코츠 창코나베", price: "$400" },
         { zh: "剝皮辣椒雞湯鍋 $500", en: "Chili Chicken Soup Pot", jp: "唐辛子鶏鍋", kr: "고추 닭고기 나베", price: "$500" }
     ]},
 
     // --- Page 3 Data (Grills/Fried - Hot Dishes) ---
-    grill_beef: { title: {zh:"烤牛肉",en:"Grilled Beef",jp:"牛肉焼き",kr:"소고기 구이"}, items: [
+    p3_beef: { title: {zh:"烤牛肉",en:"Grilled Beef",jp:"牛肉焼き",kr:"소고기 구이"}, items: [
         { zh: "鹽蔥牛五花串 $90", en: "Beef Belly w/ Scallion", jp: "牛バラ肉のネギ塩焼き", kr: "소고기 뱃살 파소금구이", price: "$90" },
         { zh: "起司牛五花串 $100", en: "Beef Belly w/ Cheese", jp: "牛バラ肉のチーズ焼き", kr: "소고기 뱃살 치즈구이", price: "$100" },
         { zh: "明太子牛五花串 $100", en: "Beef Belly w/ Mentaiko", jp: "牛バラ肉の明太子焼き", kr: "소고기 뱃살 명란구이", price: "$100" },
@@ -166,7 +166,7 @@ const menuData = {
         { zh: "和牛肋條串 $260", en: "Wagyu Rib Finger Skewer", jp: "和牛中落ちカルビ串", kr: "와규 늑간살 꼬치", price: "$260" },
         { zh: "Prime沙朗牛排 $300", en: "Prime Sirloin Steak", jp: "プライムサーロイン", kr: "프라임 등심 스테이크", price: "$300" }
     ]},
-    grill_seafood: { title: {zh:"烤海鮮",en:"Grilled Seafood",jp:"海鮮焼き",kr:"해산물 구이"}, items: [
+    p3_seafood: { title: {zh:"烤海鮮",en:"Grilled Seafood",jp:"海鮮焼き",kr:"해산물 구이"}, items: [
         { zh: "鹽烤鯛魚下巴 $120", en: "Sea Bream Chin", jp: "鯛のカマ焼き", kr: "도미 머리 구이", price: "$120" },
         { zh: "鹽烤鯖魚 $120", en: "Grilled Mackerel", jp: "サバの塩焼き", kr: "고등어 소금구이", price: "$120" },
         { zh: "竹筴魚一夜干 $180", en: "Horse Mackerel Ichiyaboshi", jp: "アジの一夜干し", kr: "전갱이 반건조 구이", price: "$180" },
@@ -182,7 +182,7 @@ const menuData = {
         { zh: "鹽烤海鱺下巴 $320", en: "Cobia Chin", jp: "スギのカマ焼き", kr: "날새기 머리 구이", price: "$320" },
         { zh: "鹽烤鮭魚下巴 $360", en: "Salmon Chin", jp: "鮭のカマ焼き", kr: "연어 머리 구이", price: "$360" }
     ]},
-    grill_chicken: { title: {zh:"烤雞肉/烤羊肉",en:"Chicken/Lamb",jp:"焼き鳥/羊肉",kr:"닭고기/양고기"}, items: [
+    p3_chicken: { title: {zh:"烤雞肉/烤羊肉",en:"Chicken/Lamb",jp:"焼き鳥/羊肉",kr:"닭고기/양고기"}, items: [
         { zh: "鹽烤雞腿肉串 $110", en: "Salt-Grilled Chicken Thigh", jp: "鶏もも肉の塩焼き", kr: "닭다리살 소금구이", price: "$110" },
         { zh: "醬烤雞腿肉串 $110", en: "Sauce-Grilled Chicken Thigh", jp: "鶏もも肉のタレ焼き", kr: "닭다리살 양념구이", price: "$110" },
         { zh: "芥末雞腿肉串 $110", en: "Chicken Thigh w/ Wasabi", jp: "鶏もも肉わさび焼き", kr: "닭다리살 와사비구이", price: "$110" },
@@ -198,7 +198,7 @@ const menuData = {
         { zh: "鹽烤三節翅 $120", en: "Salt-Grilled Chicken Wings", jp: "手羽先塩焼き", kr: "닭날개 소금구이", price: "$120" },
         { zh: "孜然羊肉串 $100", en: "Cumin Lamb Skewer", jp: "ラム肉のクミン焼き", kr: "쯔란 양꼬치", price: "$100" }
     ]},
-    grill_pork: { title: {zh:"烤豬肉",en:"Grilled Pork",jp:"豚肉焼き",kr:"돼지고기 구이"}, items: [
+    p3_pork: { title: {zh:"烤豬肉",en:"Grilled Pork",jp:"豚肉焼き",kr:"돼지고기 구이"}, items: [
         { zh: "鹽烤豬里肌 $100", en: "Salt-Grilled Pork Loin", jp: "豚ロース塩焼き", kr: "돼지 등심 소금구이", price: "$100" },
         { zh: "鹽烤豬五花串 $120", en: "Salt-Grilled Pork Belly", jp: "豚バラ塩焼き", kr: "삼겹살 소금구이", price: "$120" },
         { zh: "鹽蔥豬五花串 $120", en: "Pork Belly w/ Scallion", jp: "豚バラネギ塩焼き", kr: "삼겹살 파소금구이", price: "$120" },
@@ -208,7 +208,7 @@ const menuData = {
         { zh: "脆嫩肥腸 $200", en: "Crispy Pork Intestine", jp: "ホルモン焼き", kr: "대창 구이", price: "$200" },
         { zh: "烤鹹豬肉 $200", en: "Grilled Salty Pork", jp: "スーチーカー(塩漬け豚)", kr: "소금절임 돼지고기", price: "$200" }
     ]},
-    grill_veg: { title: {zh:"烤蔬菜",en:"Grilled Veggies",jp:"野菜焼き",kr:"채소 구이"}, items: [
+    p3_veg: { title: {zh:"烤蔬菜",en:"Grilled Veggies",jp:"野菜焼き",kr:"채소 구이"}, items: [
         { zh: "鹽烤香菇 $80", en: "Salt-Grilled Shiitake", jp: "しいたけ塩焼き", kr: "표고버섯 구이", price: "$80" },
         { zh: "鹽烤節瓜 $100", en: "Salt-Grilled Zucchini", jp: "ズッキーニ塩焼き", kr: "애호박 구이", price: "$100" },
         { zh: "鹽烤山藥 $120", en: "Salt-Grilled Yam", jp: "山芋塩焼き", kr: "마 구이", price: "$120" },
@@ -216,7 +216,7 @@ const menuData = {
         { zh: "明太子節瓜 $150", en: "Zucchini w/ Mentaiko", jp: "ズッキーニ明太子", kr: "명란 애호박", price: "$150" },
         { zh: "明太子山藥 $170", en: "Yam w/ Mentaiko", jp: "山芋明太子", kr: "명란 마 구이", price: "$170" }
     ]},
-    fried: { title: {zh:"炸物",en:"Fried Food",jp:"揚げ物",kr:"튀김"}, items: [
+    p3_fried: { title: {zh:"炸物",en:"Fried Food",jp:"揚げ物",kr:"튀김"}, items: [
         { zh: "雞肉洋蔥圈 $80", en: "Chicken Onion Rings", jp: "オニオンリング", kr: "어니언링", price: "$80" },
         { zh: "日式炸豆腐 $100", en: "Agedashi Tofu", jp: "揚げ出し豆腐", kr: "아게다시 두부", price: "$100" },
         { zh: "日式炸豬排 $100", en: "Fried Pork Cutlet", jp: "とんかつ", kr: "돈까스", price: "$100" },
@@ -230,7 +230,7 @@ const menuData = {
         { zh: "蔬菜天婦羅 $180", en: "Vegetable Tempura", jp: "野菜天ぷら", kr: "야채 튀김", price: "$180" },
         { zh: "南蠻炸雞 $200", en: "Chicken Nanban", jp: "チキン南蛮", kr: "치킨난반", price: "$200" }
     ]},
-    sides: { title: {zh:"",en:"",jp:"",kr:""}, items: [
+    p3_sides: { title: {zh:"小菜 / 沙拉",en:"Sides / Salad",jp:"前菜 / サラダ",kr:"전채 / 샐러드"}, items: [
         { zh: "茶碗蒸 $30", en: "Chawanmushi (Steamed Egg)", jp: "茶碗蒸し", kr: "계란찜", price: "$30" },
         { zh: "柚香蘿蔔 $40", en: "Yuzu Pickled Radish", jp: "柚子大根", kr: "유자 단무지", price: "$40" },
         { zh: "毛豆 $40", en: "Edamame", jp: "枝豆", kr: "에다마메", price: "$40" },
@@ -250,28 +250,46 @@ const menuData = {
     ]}
 };
 
-// === 靜態文字與注意事項 (優化翻譯版) ===
+// === 靜態文字與翻譯庫 ===
 const staticText = {
     notice: {
         zh: "<b>注意事項</b><br>1. 丼飯皆附味增湯、外帶不提供套餐。<br>2. 餐點皆現做，請耐心等候。<br>3. 自帶一瓶酒水需點兩杯啤酒抵開瓶費。<br>4. 寵物如需上坐請自備毯子。<br>5. 牛、豬丼飯大部分都提供溫泉蛋，如需全熟請自行告知。",
-        
-        en: "<b>Notice</b><br>1. All rice bowls come with Miso Soup. Sets are not available for takeout.<br>2. Meals are made to order, please wait patiently.<br>3. Corkage fee: Order 2 beers for every bottle brought in to waive the fee.<br>4. Please bring a blanket if your pet needs to sit on the seat.<br>5. Beef/Pork bowls come with a soft-boiled egg. Please inform us if you prefer it fully cooked.",
-        
-        jp: "<b>注意事項</b><br>1. 丼は味噌汁付きです。セットのテイクアウトはできません。<br>2. 注文を受けてから調理しますので、少々お待ちください。<br>3. 持ち込み料：ボトル1本につきビール2杯ご注文で無料となります。<br>4. ペットを座席に座らせる際は、毛布をご持参ください。<br>5. 牛丼・豚丼は温泉卵付きです。完熟をご希望の方はお知らせください。",
-        
-        kr: "<b>주의사항</b><br>1. 모든 덮밥에는 미소장국이 포함됩니다. 세트는 포장이 불가합니다.<br>2. 주문 즉시 조리하므로 시간이 소요될 수 있습니다.<br>3. 콜키지 프리: 가져오신 술 1병당 맥주 2잔 주문 시 무료입니다.<br>4. 반려동물 동반 시 좌석용 담요를 지참해 주세요.<br>5. 소고기/돼지고기 덮밥에는 온천 달걀이 제공됩니다. 완숙을 원하시면 미리 말씀해 주세요."
+        en: "<b>Notice</b><br>1. Includes Miso Soup. Sets not for takeout.<br>2. Made to order, please wait.<br>3. Corkage fee waived if ordering 2 beers/bottle.<br>4. Pets need blankets.<br>5. Soft-boiled egg inc. Ask for fully cooked.",
+        jp: "<b>注意事項</b><br>1. 味噌汁付き。セットのテイクアウト不可。<br>2. 注文後調理のためお待ちください。<br>3. 持ち込み料：ボトル1本につきビール2杯で無料。<br>4. ペットは毛布をご持参ください。<br>5. 温泉卵付き。完熟希望はお知らせください。",
+        kr: "<b>주의사항</b><br>1. 국 포함. 세트 포장 불가.<br>2. 즉시 조리합니다.<br>3. 콜키지 프리: 병당 맥주 2잔 주문 시.<br>4. 반려동물 담요 지참.<br>5. 온천계란 포함."
     },
     setOptions: {
         zh: "套餐+50 (小菜、茶碗蒸) | 套餐+100 (小菜、茶碗蒸、甜點)",
-        en: "Set +$50 (Side Dish, Steamed Egg) | Set +$100 (Side Dish, Steamed Egg, Dessert)",
+        en: "Set +$50 (Side, Steamed Egg) | Set +$100 (Side, Steamed Egg, Dessert)",
         jp: "セット +$50 (小鉢、茶碗蒸し) | セット +$100 (小鉢、茶碗蒸し、デザート)",
         kr: "세트 +$50 (반찬, 계란찜) | 세트 +$100 (반찬, 계란찜, 디저트)"
     },
-    riceNote: { 
-        zh: "#丼飯皆附味增湯", 
-        en: "#Includes Miso Soup", 
-        jp: "#味噌汁付き", 
-        kr: "#미소장국 포함" 
+    riceNote: { zh: "#丼飯皆附味增湯", en: "#Includes Miso Soup", jp: "#味噌汁付き", kr: "#미소장국 포함" },
+    
+    // === 新增：標題翻譯庫 ===
+    titles: {
+        ricebowl: { zh: "丼飯", en: "Rice Bowl", jp: "丼もの", kr: "덮밥" },
+        drinks: { zh: "飲料 / 酒類", en: "Drinks / Alcohol", jp: "ドリンク / お酒", kr: "음료 / 주류" },
+        
+        // Page 2 (Sashimi/Sushi)
+        sashimi: { zh: "刺身", en: "Sashimi", jp: "刺身", kr: "사시미" },
+        sashimiNote: { zh: "(綜合刺身無法指定品項)", en: "(Assorted selection cannot be specified)", jp: "(盛り合わせの内容は指定できません)", kr: "(모듬 구성 변경 불가)" },
+        nigiri: { zh: "握壽司", en: "Nigiri Sushi", jp: "握り寿司", kr: "초밥" },
+        handroll: { zh: "手卷", en: "Hand Roll", jp: "手巻き寿司", kr: "데마끼" },
+        roll: { zh: "壽司卷", en: "Sushi Roll", jp: "巻き寿司", kr: "롤 스시" },
+        soupNoodle: { zh: "鍋物、湯、麵、炒物", en: "Hot Pot / Soup / Noodles", jp: "鍋物 / スープ / 麺類", kr: "나베 / 국물 / 면류" },
+        hotpot: { zh: "火鍋", en: "Hot Pot", jp: "鍋物", kr: "나베" },
+
+        // Page 3 (Grill/Fried)
+        grill: { zh: "烤物", en: "Grilled Dish", jp: "焼き物", kr: "구이류" },
+        grillWarn: { 
+            zh: "烤物皆現烤 請耐心等候", 
+            en: "Grilled items are made to order, please wait.", 
+            jp: "焼き物は注文後調理します。少々お待ちください。", 
+            kr: "구이류는 주문 즉시 조리하므로 시간이 소요됩니다." 
+        },
+        fried: { zh: "炸物", en: "Fried Dish", jp: "揚げ物", kr: "튀김류" },
+        sides: { zh: "小菜 / 沙拉", en: "Sides / Salad", jp: "前菜 / サラダ", kr: "전채 / 샐러드" }
     }
 };
 
@@ -283,44 +301,79 @@ function showMenu(lang) {
     document.getElementById('btn-next').style.display = 'flex';
     document.getElementById('page-indicator').style.display = 'block';
 
-    // 填入靜態文字
+    // 填入基礎文字
     document.getElementById('notice-box').innerHTML = staticText.notice[lang];
     document.getElementById('set-options').innerText = staticText.setOptions[lang];
     document.getElementById('rice-note').innerText = staticText.riceNote[lang];
 
-    // --- Page 1 Rendering ---
+    // === 更新所有標題 (翻譯邏輯) ===
+    const t = staticText.titles;
+    updateTitle('t-ricebowl', t.ricebowl, lang);
+    updateTitle('t-drinks', t.drinks, lang);
+    
+    // Page 2 Titles
+    document.getElementById('t-sashimi-block').innerHTML = `${t.sashimi[lang]}<br><span class="small-text">${t.sashimiNote[lang]} <br> ${t.sashimi.zh} ${t.sashimiNote.zh}</span>`;
+    
+    updateTitle('t-nigiri', t.nigiri, lang);
+    updateTitle('t-handroll', t.handroll, lang);
+    updateTitle('t-roll', t.roll, lang);
+    updateTitle('t-soup-noodle', t.soupNoodle, lang);
+    updateTitle('t-hotpot', t.hotpot, lang);
+
+    // Page 3 Titles
+    updateTitle('t-grill', t.grill, lang);
+    updateTitle('t-fried', t.fried, lang);
+    updateTitle('t-sides', t.sides, lang);
+    
+    // 警語翻譯 (紅色框框)
+    document.getElementById('t-grill-warn').innerHTML = `${t.grillWarn[lang]}<br><span>${t.grillWarn.zh}</span>`;
+
+    // --- 渲染內容 ---
+    // Page 1
     renderGroup('p1-beef', menuData.p1_beef, lang);
     renderGroup('p1-chicken', menuData.p1_chicken, lang);
     renderGroup('p1-pork', menuData.p1_pork, lang);
     renderGroup('p1-seafood-cooked', menuData.p1_seafood_cooked, lang);
     renderGroup('p1-raw', menuData.p1_raw, lang);
-    
     renderGroup('p1-drink-soft', menuData.p1_drink_soft, lang);
     renderGroup('p1-drink-soda', menuData.p1_drink_soda, lang);
     renderGroup('p1-drink-beer', menuData.p1_drink_beer, lang);
     renderGroup('p1-drink-sour', menuData.p1_drink_sour, lang);
     renderGroup('p1-drink-highball', menuData.p1_drink_highball, lang);
 
-    // --- Page 2 Rendering (Cold - Sashimi/Sushi) ---
-    renderGroup('p2-sashimi', menuData.sashimi, lang);
-    renderGroup('p2-nigiri', menuData.nigiri, lang);
-    renderGroup('p2-handroll', menuData.handroll, lang);
-    renderGroup('p2-roll', menuData.roll, lang);
-    renderGroup('p2-soup', menuData.soup, lang);
-    renderGroup('p2-hotpot', menuData.hotpot, lang);
+    // Page 2 (Sashimi/Sushi) - Changed target IDs to match data
+    renderGroup('p2-sashimi', menuData.p2_sashimi, lang);
+    renderGroup('p2-nigiri', menuData.p2_nigiri, lang);
+    renderGroup('p2-handroll', menuData.p2_handroll, lang);
+    renderGroup('p2-roll', menuData.p2_roll, lang);
+    renderGroup('p2-soup', menuData.p2_soup, lang);
+    renderGroup('p2-hotpot', menuData.p2_hotpot, lang);
 
-    // --- Page 3 Rendering (Hot - Grills/Fried) ---
-    renderGroup('p3-beef', menuData.grill_beef, lang);
-    renderGroup('p3-seafood', menuData.grill_seafood, lang);
-    renderGroup('p3-chicken', menuData.grill_chicken, lang);
-    renderGroup('p3-pork', menuData.grill_pork, lang);
-    renderGroup('p3-veg', menuData.grill_veg, lang);
-    renderGroup('p3-fried', menuData.fried, lang);
-    renderGroup('p3-sides', menuData.sides, lang);
+    // Page 3 (Grill/Fried) - Changed target IDs to match data
+    renderGroup('p3-beef', menuData.p3_beef, lang);
+    renderGroup('p3-seafood', menuData.p3_seafood, lang);
+    renderGroup('p3-chicken', menuData.p3_chicken, lang);
+    renderGroup('p3-pork', menuData.p3_pork, lang);
+    renderGroup('p3-veg', menuData.p3_veg, lang);
+    renderGroup('p3-fried', menuData.p3_fried, lang);
+    renderGroup('p3-sides', menuData.p3_sides, lang);
 
     updateIndicator();
 }
 
+// 輔助函數：更新標題 (外文 + 中文)
+function updateTitle(id, data, lang) {
+    const el = document.getElementById(id);
+    if(el) {
+        if (lang === 'zh') {
+            el.innerHTML = data.zh;
+        } else {
+            el.innerHTML = `${data[lang]} <br><span>${data.zh}</span>`;
+        }
+    }
+}
+
+// 渲染群組
 function renderGroup(targetId, data, lang) {
     const div = document.getElementById(targetId);
     if (!div) return;
@@ -329,10 +382,15 @@ function renderGroup(targetId, data, lang) {
     const groupDiv = document.createElement('div');
     groupDiv.className = 'menu-group';
 
+    // 標題
     if (data.title && data.title[lang]) {
         const title = document.createElement('div');
         title.className = 'group-header-text';
-        title.innerText = data.title[lang];
+        if(lang === 'zh') {
+            title.innerText = data.title.zh;
+        } else {
+            title.innerHTML = `${data.title[lang]} <span>${data.title.zh}</span>`;
+        }
         groupDiv.appendChild(title);
     }
 
